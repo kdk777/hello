@@ -1,0 +1,13 @@
+drop database spider;
+create database spider;
+use spider;
+
+create table films(
+id int primary key auto_increment,
+title varchar(64),
+star double,
+rating varchar(32),
+info varchar(256),
+poster varchar(128),
+quote varchar(32)
+);
